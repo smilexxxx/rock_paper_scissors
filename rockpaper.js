@@ -93,6 +93,7 @@ function endGame() {
   let playerScore = document.getElementById("player-score");
   let hands = document.getElementById("hands");
   let result = document.getElementById("result");
+  document.getElementById("gamereset").play();
   playerScore.innerText = "";
   hands.innerText = "";
   result.innerText = "";
